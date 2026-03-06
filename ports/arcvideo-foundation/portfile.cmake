@@ -1,9 +1,9 @@
 vcpkg_from_github(
     OUT_SOURCE_PATH SOURCE_PATH
     REPO ArcForgesLabs/ArcVideoFoundation
-    REF __REF__
-    SHA512 __SHA512__
-    HEAD_REF main
+    REF 1386c8b52e68984b43066fd323dec40c49cc68d0
+    SHA512 4bd30bf0f3c0d656cc3851433edbf7ba844e713b5470400c099870d5cd54c130b2ebbd5fab7f3f7b8b0fe400cbaa3342dc95ef61697ca62bcae146329cf62a56
+    HEAD_REF 1386c8b52e68984b43066fd323dec40c49cc68d0
 )
 
 vcpkg_cmake_configure(
