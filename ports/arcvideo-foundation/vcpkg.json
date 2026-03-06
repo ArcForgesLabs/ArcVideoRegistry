@@ -1,0 +1,19 @@
+{
+  "name": "arcvideo-foundation",
+  "version": "1.0.0",
+  "description": "Core library for ArcVideo — rational math, timecodes, color, audio params, sample buffers",
+  "homepage": "https://github.com/ArcForgesLabs/ArcVideoFoundation",
+  "license": "GPL-3.0-or-later",
+  "dependencies": [
+    "imath",
+    "ffmpeg",
+    {
+      "name": "vcpkg-cmake",
+      "host": true
+    },
+    {
+      "name": "vcpkg-cmake-config",
+      "host": true
+    }
+  ]
+}
