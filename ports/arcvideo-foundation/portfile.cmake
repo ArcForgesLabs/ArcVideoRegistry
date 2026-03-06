@@ -1,8 +1,8 @@
 vcpkg_from_github(
     OUT_SOURCE_PATH SOURCE_PATH
     REPO ArcForgesLabs/ArcVideoFoundation
-    REF "${VERSION}"
-    SHA512 0  # Placeholder — updated automatically by CI
+    REF __REF__
+    SHA512 __SHA512__
     HEAD_REF main
 )
 
