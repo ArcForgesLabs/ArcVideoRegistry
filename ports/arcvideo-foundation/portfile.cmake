@@ -1,8 +1,8 @@
 vcpkg_from_github(
     OUT_SOURCE_PATH SOURCE_PATH
     REPO ArcForgesLabs/ArcVideoFoundation
-    REF 30cbd6383a7856a8b37d82cf6c575cb92d16c89b
-    SHA512 aed8d11dbc7647cd91a447a8f395bb07f6a4405e92a378bf23d549173db8a3dbdb8242c8ee177d4f2ec0f4110edbe5f22a3b11f37581e6cf6288d9360e358f88
+    REF a5db6d5d4eca2273bb850d25e096948a0d28ecdd
+    SHA512 036a1c23fd0bc9cb9ecf7ea711c513bcb3683e1aedbbbff67d34ee0ef6d2b822cde364b9f106c80ef1e9c780ad4e91ed5c92c45d18f41c816188977adc87f1b2
     HEAD_REF dac4eca29ef3ca6a6e7a71c232b3ca3c90a3e7a9
 )
 
