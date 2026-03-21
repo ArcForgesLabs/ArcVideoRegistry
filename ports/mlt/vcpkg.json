@@ -1,0 +1,32 @@
+{
+  "name": "mlt",
+  "version": "7.37.0",
+  "description": "Multimedia Framework (ArcForges fork)",
+  "homepage": "https://github.com/ArcForgesLabs/mlt",
+  "license": "LGPL-2.1-only",
+  "dependencies": [
+    "dirent",
+    "dlfcn-win32",
+    "libiconv",
+    "pkgconf",
+    "pthreads",
+    "sdl2",
+    "ffmpeg",
+    "frei0r",
+    "libxml2",
+    "libebur128",
+    "gdk-pixbuf",
+    "rubberband",
+    "libvorbis",
+    "fftw3",
+    "libexif",
+    {
+      "name": "vcpkg-cmake",
+      "host": true
+    },
+    {
+      "name": "vcpkg-cmake-config",
+      "host": true
+    }
+  ]
+}
